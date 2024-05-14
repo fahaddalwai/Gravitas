@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/authentication_navigation"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/setupAccountFragment"
+        android:name="com.isavit.meetin.presentation.authscreen.SetupAccountFragment"
+        android:label="fragment_setup_account"
+        tools:layout="@layout/fragment_setup_account" >
+        <action
+            android:id="@+id/action_setupAccountFragment_to_setupAccountUniversityFragment"
+            app:destination="@id/setupAccountUniversityFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.isavit.meetin.presentation.authscreen.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signInFragment_to_mainActivity"
+            app:destination="@id/mainActivity" />
+        <action
+            android:id="@+id/action_signInFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.isavit.meetin.presentation.authscreen.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUpFragment_to_setupAccountFragment"
+            app:destination="@id/setupAccountFragment" />
+        <action
+            android:id="@+id/action_signUpFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.isavit.meetin.presentation.authscreen.SplashFragment"
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment"
+            app:enterAnim="@anim/popup_enter" />
+        <action
+            android:id="@+id/action_splashFragment_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.isavit.meetin.presentation.mainscreen.MainActivity"
+        android:label="MainActivity" />
+    <fragment
+        android:id="@+id/setupAccountUniversityFragment"
+        android:name="com.isavit.meetin.presentation.authscreen.SetupAccountUniversityFragment"
+        android:label="SetupAccountUniversityFragment" >
+        <action
+            android:id="@+id/action_setupAccountUniversityFragment_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+</navigation>

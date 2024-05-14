@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.isavit.meetin">
+
+    <application
+        android:name="com.isavit.meetin.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MeetIn">
+        <activity
+            android:name="com.isavit.meetin.presentation.authscreen.AuthActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustNothing"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.isavit.meetin.presentation.mainscreen.MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustNothing"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
