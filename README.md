@@ -1,1 +1,34 @@
-# Gravitas
+<h1 align="center" id="title">Gravitas</h1>
+
+<p align="center"><img src="https://socialify.git.ci/fahaddalwai/Gravitas/image?language=1&amp;logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAARwAAACxCAMAAAAh3%2FJWAAAAsVBMVEX%2F%2F%2F893IQAAAAy23%2Bf677c3NyWlpZdXV2RkZH5%2Bfk2NjbCwsLZ2dk224E024Al2nrt7e2BgYHPz89vb2%2Bjo6Mf2Xi4uLjy8vLi4uIxMTHGxsZe4JX2%2FfmU6bbV9uLi%2Beut7sa%2B8dJo4ps%2BPj5mZmaIiIhKSkrv%2FPRS34%2B78NB15KPM9NsqKioZGRmdnZ2F5qzc9%2BZGRkZgYGBUVFSn7MKN6LJ65KawsLB1dXUPDw8hISF0hnBQAAAIsklEQVR4nO2c63qiMBCGEazVKtB6PtRqq9aqPe3a6rb3f2FLEhISBTyUwNBn3j8rCZmSz2QyGeIaBoIgCIIgCIIgCIIgCIIgCIIgSI64m%2Bu0Pr%2FTaV0zI8ttfegz%2F9FyrZE%2B85oZ2IVCS9vjj1qFgj3QZV07VkHn4xPpC44u69p5c7zHd1d6jN%2B7RJs3PcZT4JY8f6Ggxzg17d7qMZ4GH2RiWUUdpovUtEZ3rx9tX%2B9c56BMiRV1DJvkDW90urO0eCBLivuetNk7Irr9kLTZlCHBSMF%2BStrsE9FcXwiVFp%2FEcbqLZI0uyMCxPpM1mgVEnKRjNWrTStZmJozptzxM0uSQjsZxkiazgvoHN8Ht%2BVyPH8sEtrIskzPIVsA8pysklnaiMckqabEz5UA0eztaLYqfm4fBE2XwsPksLlajyLCaRd1as2hpwvZB4%2F2K0f3woeC6rmU5tgfpNfnXsSyvsLAc3odEMmN9%2B7VsoN221LEwGi8dTxVaFY7taWQtx6pAbKdvp%2Fn0mqG5F0vKvazebDdOF1kh136T%2FBXLEd2n3wd9KOH%2Baum6zjHCcBzX3fj6sO1IfpOjYbyLPo2G3lA4RRl%2FALnWkGg7%2BB2bKhV%2FNqwGp40ZdfwMVnnPjYbD%2FGis%2Fz1i%2BFh0U5Xn3Gg4dAVOhLCYIOfcJyfOr1qqPN6f3KS08abVU%2BKZxSx5a%2F3I1%2Bxit36PS763EptSHOu3zK1lgjMqwP0N2%2FI75%2BzAJh7Hzn1Gp9jSIw2hlfOt%2BYOWKcVx8%2Fzial7QNKU4TiG3Oa%2B7c3aYp2HnNZW80OhuAlq5XNPHqWjjqTPOuqen86HVFcu4uTukU0xNm%2Fypk964oeqMs%2B7vKaTjiwNaCZ%2Fi0MkqZW08dXKzoo9SnVMMNyc591vtoV8o%2BUgsDzIRJx%2FvsoaJZ7aOI9nzUXpI3xlzWuAP3t5mNG4IFnS385CNN6ZAP5e8iF7Fbednrzt9K5YTbSXpE73Jchupje0OhsWN88NJZzmb4nAQnSYC%2FaJ4GZX5swYsSBv%2FKD7091CjQZTGDuBXEquorlvipyHvP1An%2BAnFJkodwD8VieyWdGb4%2FAMF1uKIvwT2R0aR%2FVZeT56rjdLvyGMJYI9gRI4JxU8Oz3wj4cgRcLTnB%2FqLiGKkOMoDnzuv1DERqTDQQ7jRrlYR5yMRcaKNgBw60QNHPW6%2BOTMUtOUfQ85jvgmIGeWYASEP9WhvcQjZc8V8ExCHziJutkhDZ3P%2BadLgxFLMwFGXfCA8xfXLFu%2B0hz8JAvl6NY%2B%2FD9wvse7iO227H0SeVWTgfxTWgATA8%2BKBd%2FDg3p8fdLPk3Lr705MFtut9B%2B4hgcEd4s4s%2FxeGm7UaKrHuOHWAueQsE4D7wEoJ3oKaVYVCC1LSC9asAjavlqBmFbDfDmfwcjweQOvVgQgwAwDFgXHbwGwAlNWBtZATAC3m4GYVIKeTxWGlQ4A5zAQtyiGAiXTOfZ%2BgEwfKaR14%2FhiQRwaoDZj%2FCuT8lLlOgBy4gLhYgVmuIs9WZAqQ8xaLlgUQICf%2BV0WQwBg5CIIgCIIgCIIgCAKf9qxcnl2f1qY0WVdDK7rEWHhVLrkxPS5OarImTbZhNXVSU07kuUBwujhUAdOMrCol82AQOF2cNooTTZdq0wurQnGMMmlSC6tBcTwNZqXw9Q3FiQHFiQHFiQGkOJ1OXGUlrLTiNzlCnFjryt8AJ06l%2BYc80pqErNNGo3FDS8vep78Vo1LqkcppXW3Tn5LSZ7JtCMSpe62nXux%2FcdP77nE9urMreuuNZGFLbuyKy%2B7smdzSqMMTp2kK6kYQgNAQ36iKurXUpNsTxTNJHHpzkxWYbDXqXAbWJ2J4qUt5Q9zxWAEmjvT0pkm7dxWUt6W6Z9FELjWnM1Wc7cwMxOmbCk3fgCzO9Zd8RxuUOGtzD0kchX9%2Bk%2Bp%2BE0mcf2Ygzt6dfrclcTohxqCI8%2Bp%2F%2Fe1affsYKs5lu9ZnE8VkXuKaXfSa9Vr1Zl8cZuKZiNP173ytVpu%2BcZaNkMT5w8pn%2FVq99AJLHNbRb9839kPE6dOLC%2Fq5LFX4M6TzGCJO2%2Ftc8VafnqQH34rTRSkQh83Qqf84ZVDiUP%2FwJVbqiz1x2n4N9doT8qmrlPOvXhaHbwyq0nAz%2BASiHQ%2FE%2BZa14QMZiDj0WaQ1trQjzhWvqNA7yaey2h1%2F8EniCN3W0ggj9FUbRJyaKPKZwBGHPpucOqjsiBN07YrPiavAXzAaO%2BKIit2OG8%2F8TiHOazBbGVU44rR3n814VMUJRLjk4ux1ua2K0%2BDlNeWKQDXZGpI4jZ2Ry8zDEOdVdR8GC3clcYKwn4tDPcej3KSmivPKy%2FcHQZvXC3EeZR9FgSNO6ZA4waZKEUeOlpmHliNkH1UqUUIGqhBnov4Rjxcw4jR3XKa3tzokDvVK33KTfoQ4dO2ehf45IQ612pXvgTNy%2BntuwTwkDvM58pddihDnOrDlQzerJHAS4sy4F%2BJ04YjT2e1p%2FbA4093R9hIhjvElKhgV8deEONQL%2FZGMzeCIwxziv%2BC6d1ic6o6gbFMfJg6VYBIYp7JeihoiDtMreMPJgiYg4rCeCq%2F51zwsjiHdIyyEisPGpYgX2T6MBgdBhPwvKCQtXiCJw5YL85I%2BXf%2FZPEYcP2FBF7ku34OHieNvBr7bpFl%2FIkkViONvyum79grPLEERx99ie8P%2Fin86JI7Yr%2FcmQSomVByRD%2Fni%2B21%2FmZN25Tw39DJ5FsagiOPvbjiXX0eI4w830SZanN1s0bcfVMrJrpJyxxSUOEZXysRdRi%2Fla%2FmyIXWnu5MJVMThSQhGQynljkbOKzZrsMQRCS%2FPObC94Qstnani3CiXdZ4Ym1WMregpDVJeVePX3CuZf4ONWtCE0OG3rC%2FYNId1BKW2LZe3fp7Pw9j5FHrZfi03WSasI2oq3qf91zj1Ztm7VSnv7NzYb5ZL7Wtu4vCLHARBEARBEARBEARBEARBEARBkJT5D1N7m3ip0tnRAAAAAElFTkSuQmCC&amp;name=1&amp;owner=1&amp;stargazers=1&amp;theme=Light" alt="project-image"></p>
+
+<p id="description">The ISA VIT official app for getting the latest information about our chapter events, hackathons and webinars and so much more! Find out about the effort and work we put behind in making ISA one of the best chapters at VIT.</p>
+
+
+
+
+<h2>🛠️ Installation Steps:</h2>
+
+### Open and Run Project
+
+<b>For Android App:</b>
+1. Open Android Studio, select File -> Import -> "Existing Projects into your workspace".
+2. Go to the path where you cloned the Repo: (repoFolder)\code
+3. Paste the google-services.json to "app" folder.
+4. Rebuild the project and run.
+
+<b>For cloud function:</b>
+1. Initialize Firebase SDK for Cloud Functions as explained [here](https://firebase.google.com/docs/functions/get-started),
+2. Open index.js and paste the code from  "(repoFolder)\cloud function\index.js".
+3. Deploy the cloud function.
+
+<h2>🍰 Contribution Guidelines:</h2>
+
+Make Pull requests which improve the functionality of the application in any sorts. It should conform with the following conditions:
+
+*   Clear, short, crisp description of the PR.
+*   Should add on to the value of the application.
+
+<h2>🛡️ License:</h2>
+
+Distributed under the MIT License.
